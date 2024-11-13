@@ -1,0 +1,15 @@
+Dante Gordon 10/19/24
+
+
+This is a demo following this video tutorial. https://youtu.be/jpsJCji71Ec?si=WgwHrDSYaB33B1Bu
+
+To test you should start by making sure you execute the command below to ensure you have the necessary packages to do the installation.
+Further details are available in the video linked above
+
+sudo apt-get install curl cmake clang pulseaudio libasound-dev libjack-dev
+
+To test the bug run the following in the command prompt
+
+make install-deps
+
+This should initiate a download and the lib folder should filled witht the contents of the zip folder downloaded from the link in the makefile.
